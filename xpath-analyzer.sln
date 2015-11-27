@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpath-analyzer", "xpath-analyzer\xpath-analyzer.csproj", "{8C763080-C095-4E6E-993A-33F123367893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpath-analyzer-sandbox", "xpath-analyzer-sandbox\xpath-analyzer-sandbox.csproj", "{3B0C523E-42DE-40DF-8D07-C3B759291D70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C763080-C095-4E6E-993A-33F123367893} = {8C763080-C095-4E6E-993A-33F123367893}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C763080-C095-4E6E-993A-33F123367893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C763080-C095-4E6E-993A-33F123367893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C763080-C095-4E6E-993A-33F123367893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C763080-C095-4E6E-993A-33F123367893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0C523E-42DE-40DF-8D07-C3B759291D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0C523E-42DE-40DF-8D07-C3B759291D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0C523E-42DE-40DF-8D07-C3B759291D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0C523E-42DE-40DF-8D07-C3B759291D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
